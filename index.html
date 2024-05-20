@@ -805,7 +805,7 @@
               eiusmod tempor incididunt.
             </p>
           </div>
-          <div class="home-form">
+          <div action="/formhandler" method="post" class="home-form">
             <div class="home-types1">
               <div class="book-type">
                 <span class="home-text71">In person appointment</span>
@@ -833,19 +833,13 @@
                 autocomplete="tel"
                 class="input book-input"
               />
-              <div class="home-date"></div>
-              <input
-                type="text"
-                placeholder="Practice"
-                class="input book-input"
-              />
               <div class="home-lower">
                 <p class="home-text73">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt.
                 </p>
                 <div class="home-button">
-                  <button class="home-book6 button button-main">
+                  <button type="submit" class="home-book6 button button-main">
                     <span>Book</span>
                   </button>
                   <p class="home-text75">
@@ -954,7 +948,7 @@
             <input
               type="text"
               placeholder="Search by name"
-              class="home-textinput4 input book-input"
+              class="home-textinput3 input book-input"
             />
             <button class="button button-main home-book7">
               <span>Search doctor</span>
@@ -980,7 +974,7 @@
               </div>
               <div class="home-content09">
                 <div class="home-details">
-                  <span class="home-date1">November 23, 2022</span>
+                  <span class="home-date">November 23, 2022</span>
                   <p class="home-quick-description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -1007,7 +1001,7 @@
               </div>
               <div class="home-content10">
                 <div class="home-details1">
-                  <span class="home-date2">November 23, 2022</span>
+                  <span class="home-date1">November 23, 2022</span>
                   <p class="home-quick-description1">
                     Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.
@@ -1033,7 +1027,7 @@
               </div>
               <div class="home-content11">
                 <div class="home-details2">
-                  <span class="home-date3">November 23, 2022</span>
+                  <span class="home-date2">November 23, 2022</span>
                   <p class="home-quick-description2">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
@@ -1052,6 +1046,68 @@
             </div>
           </div>
         </section>
+        <div class="contact-form1-contact1 thq-section-padding">
+          <div class="contact-form1-max-width thq-section-max-width">
+            <div class="contact-form1-container">
+              <div class="contact-form1-section-title thq-card">
+                <span class="thq-body-small">
+                  <span>Get in touch with us today!</span>
+                </span>
+                <h2 class="thq-heading-2"><span>Contact us</span></h2>
+                <span class="thq-body-small">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                </span>
+              </div>
+              <form class="thq-card">
+                <div class="contact-form1-container1">
+                  <div class="contact-form1-input thq-flex-row">
+                    <label for="contact-form-1-name" class="thq-body-small">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      id="contact-form-1-name"
+                      placeholder="Name"
+                      class="contact-form1-text-input thq-input"
+                    />
+                  </div>
+                  <div class="contact-form1-input1 thq-flex-row">
+                    <label for="contact-form-1-email" class="thq-body-small">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      id="contact-form-1-email"
+                      required="true"
+                      placeholder="Email"
+                      class="contact-form1-text-input1 thq-input"
+                    />
+                  </div>
+                </div>
+                <div class="contact-form1-checkbox thq-flex-row">
+                  <input
+                    type="checkbox"
+                    id="contact-form-1-check"
+                    checked="true"
+                    required="true"
+                    class="thq-checkbox"
+                  />
+                  <label for="contact-form-1-check" class="thq-body-small">
+                    I accept the Terms
+                  </label>
+                </div>
+                <button
+                  type="submit"
+                  class="contact-form1-button thq-button-filled"
+                >
+                  <span class="thq-body-small"><span>Submit</span></span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
         <div class="home-download">
           <div class="home-main1">
             <img

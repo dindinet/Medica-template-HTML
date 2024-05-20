@@ -150,6 +150,71 @@
   }
 }
 
+.contact-form1-contact1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form1-max-width {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-form1-container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.contact-form1-section-title {
+  align-self: flex-start;
+}
+.contact-form1-container1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form1-input {
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+.contact-form1-text-input {
+  flex: 1;
+}
+.contact-form1-input1 {
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+.contact-form1-text-input1 {
+  flex: 1;
+}
+.contact-form1-checkbox {
+  align-self: flex-start;
+}
+.contact-form1-button {
+  align-self: flex-start;
+}
+@media(max-width: 991px) {
+  .contact-form1-input {
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact-form1-input1 {
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact-form1-checkbox {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
 .home-container {
   width: 100%;
   display: flex;
@@ -1498,14 +1563,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-date {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  justify-content: center;
-}
 .home-lower {
   gap: var(--dl-space-space-twounits);
   width: 100%;
@@ -1611,7 +1668,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-textinput4 {
+.home-textinput3 {
   flex: 1;
   height: 100%;
 }
@@ -1689,7 +1746,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-date1 {
+.home-date {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -1745,7 +1802,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-date2 {
+.home-date1 {
   color: #000000;
   line-height: 24px;
 }
@@ -1801,7 +1858,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-date3 {
+.home-date2 {
   color: #000000;
   line-height: 24px;
 }
@@ -2658,15 +2715,15 @@
     max-width: 80%;
     line-height: 21px;
   }
+  .home-date {
+    font-size: 10px;
+    line-height: 15px;
+  }
   .home-date1 {
     font-size: 10px;
     line-height: 15px;
   }
   .home-date2 {
-    font-size: 10px;
-    line-height: 15px;
-  }
-  .home-date3 {
     font-size: 10px;
     line-height: 15px;
   }
