@@ -805,7 +805,12 @@
               address you supply.
             </p>
           </div>
-          <form action="/formhandler" method="get" class="home-form">
+          <form
+            action="/formhandler"
+            enctype="application/x-www-form-urlencoded"
+            method="POST"
+            class="home-form"
+          >
             <input
               type="text"
               enctype="name"

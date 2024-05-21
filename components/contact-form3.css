@@ -68,6 +68,7 @@
 .contact-form3-button {
   align-self: flex-start;
 }
+
 @media(max-width: 991px) {
   .contact-form3-max-width {
     flex-direction: column;
