@@ -805,19 +805,24 @@
               eiusmod tempor incididunt.
             </p>
           </div>
-          <form method="post" action="/formhandler" class="home-form">
+          <form action="/formhandler" method="get" class="home-form">
             <input
               type="text"
-              placeholder="name"
               enctype="name"
+              placeholder="name"
               class="home-textinput input"
             />
             <input
               type="text"
-              placeholder="email"
               enctype="name"
+              placeholder="email"
               class="home-textinput1 input"
             />
+            <textarea
+              placeholder="Your Message"
+              rows="4"
+              class="home-textarea textarea"
+            ></textarea>
             <button type="submit" class="home-button button">Submit</button>
           </form>
         </section>
